@@ -1,0 +1,12 @@
+[package]
+name = "edtech-rate-limited-worker"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+name = "edtech_worker"
+path = "src/lib.rs"
+
+[[bin]]
+name = "queue_worker"
+path = "src/bin/queue_worker.rs"
